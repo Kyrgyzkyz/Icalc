@@ -7,7 +7,6 @@ function RoomUnitCalculator() {
   const [mode, setMode] = useState("premium"); // "premium" or "standard"
 
   const calculatePrice = (r, u) => {
-    // if room > 5
     if (r > 5) return "For more than 5 rooms, please consult with an operator.";
 
     let price = 0;
@@ -23,8 +22,6 @@ function RoomUnitCalculator() {
     else if (r === 5 && u === 5) price = 4900;
     else if (r === 5 && u === 6) price = 5600;
     else price = "Unusual room/unit setup — please consult with the operator.";
-
-    // For standard calculator, price = half
     if (mode === "standard" && typeof price === "number") {
       price = price / 2;
     }

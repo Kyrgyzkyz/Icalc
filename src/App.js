@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Curtains from './components/Curtain';
 import Carpet from './components/Carpet';
-import Select from './components/Select';
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MenuBar from './components/MenuBar';
