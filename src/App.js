@@ -11,8 +11,6 @@ import AC from './components/AC';
 import MattressSelector from './components/Matrass';
 
 
-
-
 function App() {
   return (
     <Router>

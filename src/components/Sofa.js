@@ -90,6 +90,23 @@ const Sofa = () => {
           </div>
         </div>
       </div>
+      <a
+  style={{
+    fontFamily: "'Dancing Script', cursive",
+    fontSize: "25px",
+    fontWeight: 800,
+    color: "red",           // changed to red
+    letterSpacing: "0.04em",
+    userSelect: "none",
+    marginBottom: "6px",
+    display: "inline-block",
+    textDecoration: "none"  // removes underline
+  }}
+  href="
+https://www.instagram.com/reel/DFaxu3do-rU/?igsh=MXBmcXYxeGpkdHFjNQ== "
+>
+  Watch the process
+</a>
     </div>
   );
 };

@@ -161,6 +161,25 @@ function RoomUnitCalculator() {
   }}>
   Including VAT
 </h6>
+<div>
+<a
+  style={{
+    fontFamily: "'Dancing Script', cursive",
+    fontSize: "25px",
+    fontWeight: 800,
+    color: "red",           // changed to red
+    letterSpacing: "0.04em",
+    userSelect: "none",
+    marginBottom: "6px",
+    display: "inline-block",
+    textDecoration: "none"  // removes underline
+  }}
+  href="
+  https://www.instagram.com/reel/DItnGHQI9wW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==  "
+>
+  Watch the process
+</a>
+</div>
     </div>
   );
 }

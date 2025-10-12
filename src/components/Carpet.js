@@ -84,7 +84,7 @@ const Carpet = () => {
   }}>
   Including VAT
 </h6>
-              
+             
               <div className="d-grid gap-2">
                 <div className="row g-2">
                   {buttons.map((btn, i) => (
@@ -103,6 +103,22 @@ const Carpet = () => {
           </div>
         </div>
       </div>
+      <a
+  style={{
+    fontFamily: "'Dancing Script', cursive",
+    fontSize: "25px",
+    fontWeight: 800,
+    color: "red",           // changed to red
+    letterSpacing: "0.04em",
+    userSelect: "none",
+    marginBottom: "6px",
+    display: "inline-block",
+    textDecoration: "none"  // removes underline
+  }}
+  href="https://www.instagram.com/reel/Ctim5XexASl/?igsh=NmVmcnA5NWUwdTUy"
+>
+  Watch the process
+</a>
     </div>
   );
 };
