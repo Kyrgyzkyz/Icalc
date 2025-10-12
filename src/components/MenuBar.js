@@ -1,12 +1,17 @@
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carpet from "./Carpet";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+
+
+
 
 
 function MenuBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
       <div className="container-fluid">
         {/* Brand / Logo */}
         <NavLink className="navbar-brand fw-bold" to="/">
