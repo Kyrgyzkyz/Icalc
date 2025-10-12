@@ -21,7 +21,7 @@ function App() {
     <Router>
       <MenuBar />
      
-      <div className="container mt-5 pt-5 text-center">
+      <div className="container py-4 mt-5 pt-5 text-center">
         <Routes>
           <Route path="/" element={<h2>Welcome</h2>} />
           <Route path="/carpet" element={<div><Carpet/></div>} />

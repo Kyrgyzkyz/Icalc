@@ -58,7 +58,7 @@ const Carpet = () => {
     display: "inline-block"
   }}
       >
-      Specify carpet size in meters, e.g., 2×3.
+      Specify carpet size in meters, e.g., 2*3.
       </label>
               <input 
                 type="text" 

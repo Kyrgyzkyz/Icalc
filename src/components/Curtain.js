@@ -67,7 +67,7 @@ const Curtains = () => {
     display: "inline-block"
   }}
       >
-      Specify blackout size (one side), e.g., 2×3 meters.
+      Specify blackout size (one side), e.g., 2*3 meters.
       </label>
               <input 
                 type="text" 
