@@ -20,7 +20,6 @@
     "react-dom": "^19.2.0",
     "react-i18next": "^16.1.0",
     "react-router-dom": "^7.9.4",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -54,5 +53,12 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts-ts-patch start",
+    "build": "react-scripts-ts-patch build",
+    "test": "react-scripts-ts-patch test",
+    "eject": "react-scripts-ts-patch eject"
   }
+  
 }
