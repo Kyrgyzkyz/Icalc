@@ -23,10 +23,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts-ts-patch start",
+    "build": "react-scripts-ts-patch build",
+    "test": "react-scripts-ts-patch test",
+    "eject": "react-scripts-ts-patch eject"
   },
   "eslintConfig": {
     "extends": [
@@ -53,12 +53,5 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.9.3"
-  },
-  "scripts": {
-    "start": "react-scripts-ts-patch start",
-    "build": "react-scripts-ts-patch build",
-    "test": "react-scripts-ts-patch test",
-    "eject": "react-scripts-ts-patch eject"
   }
-  
 }
