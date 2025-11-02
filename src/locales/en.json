@@ -1,0 +1,65 @@
+{
+    "billForm": {
+      "instruct": "Enter details & sizes at the bar to order.",
+      "invoice_title": "🧾 Invoice",
+      "customer_name": "Customer Name",
+      "phone_number": "Phone Number (customer)",
+      "address": "Address",
+      "placeholder_name": "Enter customer name",
+      "placeholder_phone": "e.g. 971501234567",
+      "placeholder_address": "Enter customer address",
+      "send_button": "Send Bill via WhatsApp",
+      "total": "Total Amount"
+    },
+    "carpet": {
+      "watch_video": "Watch the carpet cleaning process",
+      "label_size": "Specify carpet size in meters, e.g., 2*3.",
+      "including_vat": "Including VAT"
+    },
+    "curtains":{
+      "watchVideo": "Watch the curtains cleaning process",
+      "chooseType": "Choose Cleaning Type:",
+      "factory": "Factory Cleaning",
+      "onSite": "On-Site Cleaning",
+      "sheers": "Sheers Only",
+      "specifySize": "Specify blackout size (one side), e.g., 2*3 meters.",
+      "includingVAT": "Including VAT"
+    },
+    
+      "sofa": {
+        "watch_video": "Watch sofa cleaning",
+        "label_seats": "Seats (e.g., L-shape = 4)",
+        "error": "Error",
+        "buttons": {
+          "clear": "C",
+          "equals": "="
+        }
+      },
+      "acCalculator": {
+        "watch_video": "AC cleaning video",
+        "mode_premium": "Deep",
+        "mode_standard": "Standard",
+        "label_rooms": "Number of Rooms",
+        "label_units": "Number of Units (thermostat)",
+        "placeholder_rooms": "e.g. 3",
+        "placeholder_units": "e.g. 4",
+        "calculate": "Calculate",
+        "total_price": "Total Price: {{price}}",
+        "including_vat": "Including VAT",
+        "invalid_numbers": "Please enter valid numbers.",
+        "too_many_rooms": "For more than 5 rooms, please consult with an operator.",
+        "unusual_setup": "Unusual room/unit setup — please consult with the operator."
+      }, "mattress":{
+        "watchVideo": "Watch mattress cleaning",
+        "chooseSize": "-- Choose Size --",
+        "king": "King Size",
+        "queen": "Queen Size",
+        "single": "Single Size",
+        "price": "Price",
+        "includingVAT": "Including VAT"
+      }
+      
+    
+    
+  }
+  

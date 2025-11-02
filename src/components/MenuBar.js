@@ -15,7 +15,7 @@ function MenuBar() {
       <div className="container-fluid">
         {/* Brand / Logo */}
         <NavLink className="navbar-brand fw-bold" to="/">
-          Menu
+        ICleaning
         </NavLink>
 
         {/* Toggle button for phones */}
@@ -46,7 +46,7 @@ function MenuBar() {
     marginBottom: "6px",
     display: "inline-block"
   }} className="nav-link" to="/" end>
-                ICleaning
+                Menu
               </NavLink>
             </li>
             <li className="nav-item">
@@ -73,7 +73,7 @@ function MenuBar() {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/mattress" onClick={closeMenu}>
-                Mattrass
+                Mattress
               </NavLink>
             </li>
           </ul>
